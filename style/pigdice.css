@@ -1,0 +1,82 @@
+
+#game-registration {
+	float: left;
+	border-radius: 0.5em;
+	border: 2px solid slategray;
+	margin-bottom: 1em;
+	padding: .75em;
+}
+
+#game-registration h2 {
+	margin-top: 0;
+}
+
+#game-registration label {
+	margin-right: 2em;
+}
+
+#game-registration input[type="text"] {
+	display: flow-root;
+	width: 98.5%;
+}
+
+#game-registration input[type="button"] {
+	width: 100%;
+}
+
+.err {
+	color: red;
+}
+
+#gameplay {
+	clear: left;
+}
+
+.game {
+	display: inline-block;
+	border-radius: 0.5em;
+	border: 2px solid slategray;
+	text-align: center;
+	padding-bottom: .2em;
+}
+
+.game p {
+	margin: 1em 0 0 1.1em;
+	text-align: left;
+}
+
+.score {
+	margin: 1em;
+	padding: 0 1em;
+	float:left;
+	border: solid 2px slategray;
+}
+
+.score h1 {
+	margin-bottom: 0;
+}
+
+.score p {
+	margin-left: 0;
+	margin-bottom: .5em;
+}
+
+.player {
+	color: gray;
+}
+
+.active-player {
+	color: yellow;
+}
+
+.winner {
+	background-color: greenyellow;
+}
+
+.left-btn {
+	float: left;
+}
+
+.right-btn {
+	float: right;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/pigdice.css">
+		<script src="js/Rnd.js"></script>
+		<script src="js/GameDie.js"></script>
+		<script src="js/Player.js"></script>
+		<script src="js/PigDiceGame.js"></script>
+		<script src="js/PigMain.js"></script>
+		<title>Pig Dice</title>
+	</head>
+	<body>
+		<h1>Let's Play PIG!</h1>
+		<div id="game-registration">
+			<h2>Rules</h2>
+			<ul>
+				<li>Players take turns rolling the die.</li>
+				<li>If the player rolls a 1, they lose all points earned during their turn.</li>
+				<li>If the player holds, points earned during their turn are added to their total score.</li>
+				<li>The player's turn ends when the player rolls a 1 or chooses to hold.</li>
+				<li>First player to a total score of 100 wins.</li>
+			</ul>
+			<fieldset>
+				<p>Register Players:</p>
+				<label for="player1">Player 1</label><span id="player1-err" class="err"></span><br>
+				<input id="player1" type="text">
+				<br>
+				<label for="player2">Player 2</label><span id="player2-err" class="err"></span><br>
+				<input id="player2" type="text">
+				<br>
+				<input id="register-game" type="button" value="Start Game">
+			</fieldset>
+		</div>
+		<main id="gameplay"></main>
+	</body>
+</html>
