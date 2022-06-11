@@ -1,0 +1,15 @@
+{
+	"files": [
+		"ts/GameDie.ts",
+		"ts/PigDiceGame.ts",
+		"ts/PigMain.ts",
+		"ts/Player.ts",
+		"ts/Rnd.ts"
+	],
+	"compilerOptions": {
+		"removeComments": true,
+		"outDir": "js",
+		"target": "es5",
+		"watch" : true
+	}
+}
