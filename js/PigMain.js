@@ -18,7 +18,7 @@ window.onload = function () {
         }
         else if (player1Name == player2Name) {
             var errSpan = document.getElementById("player2-err");
-            errSpan.innerText = "Player names shoud be different!";
+            errSpan.innerText = "Player names should be different!";
         }
         else {
             var errSpan = document.getElementById("player2-err");

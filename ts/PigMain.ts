@@ -21,7 +21,7 @@ window.onload = function() {
 			errSpan.innerText = "Player name required!"
 		} else if (player1Name == player2Name) {
 			let errSpan: HTMLSpanElement = document.getElementById("player2-err");
-			errSpan.innerText = "Player names shoud be different!"
+			errSpan.innerText = "Player names should be different!"
 		} else {
 			let errSpan: HTMLSpanElement = document.getElementById("player2-err");
 			errSpan.innerText = "";
